@@ -48,4 +48,4 @@ class AboutNone(Koan):
         None is distinct from other things which are False.
         """
         self.assertEqual(True, None is not 0)
-        self.assertEqual(__, None is not False)
+        self.assertEqual(True, None is not False)
